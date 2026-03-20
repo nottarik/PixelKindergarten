@@ -1,31 +1,29 @@
-# Grupa2-Tim1
+# 📚 Pixel Kindergarten 🎨
 
-# 📚 Pixel Vrtic 🎨
-
-Moderni web‑sistem za upravljanje vrtićem, razvijen za akademsku godinu 2024/2025.
+Modern web-based kindergarten management system, developed for the 2024/2025 academic year.
 
 URL: <a href="http://lamina-001-site1.otempurl.com/">PIXEL WEBSITE</a>
 
 ---
 
-## 🔧 Ključne funkcionalnosti
+## 🔧 Key Features
 
-- **Evidencija djece**: unos, uređivanje i pregled podataka (ime, datum rođenja, roditelji itd.)
-- **Generisanje i skeniranje QR kodova**: automatsko kreiranje QR kodova za djecu, kao i mogućnost skeniranja radi brze evidencije prisustva.
-- **Planiranje grupa i rasporeda**: dodjela djece u grupe i generisanje rasporeda aktivnosti, izvještaji itd.
-- **Pristup za administratore i vaspitače**: različite autorizacije i pristupi sadržaju.
+- **Child Records**: Entry, editing, and viewing data (name, date of birth, parents, etc.).
+- **QR Code Generation and Scanning**: Automatic creation of QR codes for children, and scanning capability for quick attendance tracking.
+- **Group and Schedule Planning**: Assigning children to groups and generating activity schedules, reports, etc.
+- **Admin and Teacher Access**: Different authorizations and content access levels.
 
 ---
 
-## 🔗 Konekcijski string
+## 🔗 Connection String
 Data Source=SQL6032.site4now.net;Initial Catalog=db_ab92da_ooad25;User Id=db_ab92da_ooad25_admin;Password=123bucapotoK 
 
 ---
 
-## 🧪 Pristupni podaci (za testiranje)
+## 🧪 Access Data (for testing)
 
-| Uloga         | Email | Lozinka       | Opis                                                  |
+| Role | Email | Password | Description |
 |---------------|----------------|----------------|--------------------------------------------------------|
-| **Administrator** | `admin@pixel`        | `bp123!`    | Puna kontrola nad aplikacijom i korisnicima            |
-| **Roditelj**      | `roditelj2@pixel`    | `Test123!` | Može pregledati podatke i aktivnosti svoje djece       |
-| **Vaspitač**      | `vaspitacL@pixel`    | `Test123!` | Može unositi aktivnosti i upravljati članovima grupe   |
+| **Administrator** | `admin@pixel` | `bp123!` | Full control over the application and users |
+| **Parent** | `roditelj2@pixel` | `Test123!` | Can view data and activities for their children |
+| **Teacher** | `vaspitacL@pixel` | `Test123!` | Can enter activities and manage group members |
